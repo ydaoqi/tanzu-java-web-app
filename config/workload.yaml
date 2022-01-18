@@ -2,7 +2,7 @@ apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
   annotations:
-        autoscaling.knative.dev/min-scale: 2
+        autoscaling.knative.dev/min-scale: "2"
         autoscaling.knative.dev/maxScale: 3
   name: tanzu-java-web-app
   labels:
