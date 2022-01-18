@@ -4,7 +4,7 @@
 ```json
 {
   "projectName" : "tanzu-java-web-app",
-  "repositoryPrefix" : "index.docker.io/dyangdockerid"
+  "repositoryPrefix" : "index.docker.io/dyangdockerid/tap-dev"
 }
 ```
 ## Log
