@@ -1,6 +1,9 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
+  annotations:
+        autoscaling.knative.dev/minScale: 2
+        autoscaling.knative.dev/maxScale: 3
   name: tanzu-java-web-app
   labels:
     apps.tanzu.vmware.com/workload-type: web
