@@ -14,3 +14,7 @@ spec:
       url: https://github.com/ydaoqi/tanzu-java-web-app
       ref:
         branch: main
+  params:
+    - name: annotations
+      value:
+        autoscaling.knative.dev/minScale: "1"
